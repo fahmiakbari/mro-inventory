@@ -1,0 +1,35 @@
+﻿Material,Kategori,Satuan,Prioritas,Saldo,Pemakaian30,RataHarian,HariStok,Status,NilaiRp
+V-Belt A-42,Belts,Pcs,Critical,24,63,2.1,11.428571428571429,Tinjau pengadaan,1152000
+Oil Filter Cartridge 1A,Filters,Pcs,Critical,129,287,9.566666666666666,13.484320557491289,Tinjau pengadaan,5805000
+Hydraulic Oil ISO 46,Lubricants,Liter,Critical,300,336,11.2,26.785714285714285,Tinjau pengadaan,14400000
+Teflon Tape 3/4 inch,Seals,Roll,Critical,500,372,12.4,40.32258064516129,Pantau,4250000
+Welding Rod 6013 3.2mm,Consumables,Kg,Regular,295,193,6.433333333333334,45.854922279792746,Cukup,9440000
+Grinding Wheel 4 inch,Consumables,Pcs,Regular,308,131,4.366666666666666,70.53435114503817,Cukup,5544000
+Hydraulic Filter HF-10,Filters,Pcs,Regular,171,55,1.8333333333333333,93.27272727272727,Cukup,28215000
+Cutting Wheel 4 inch,Consumables,Pcs,Critical,300,92,3.066666666666667,97.82608695652173,Cukup,3750000
+Engine Oil SAE 40,Lubricants,Liter,Critical,500,135,4.5,111.11111111111111,Stok di atas 100 hari,21000000
+Fuse NH00 100A,Electrical,Pcs,Critical,300,71,2.3666666666666667,126.7605633802817,Stok di atas 100 hari,23400000
+Contactor LC1-D25,Electrical,Pcs,Regular,398,75,2.5,159.2,Stok di atas 100 hari,93530000
+Gear Oil SAE 90,Lubricants,Liter,Regular,322,49,1.6333333333333333,197.14285714285714,Stok di atas 100 hari,12236000
+Ball Bearing 6205,Bearings,Pcs,Regular,158,23,0.7666666666666667,206.08695652173913,Stok di atas 100 hari,8690000
+V-Belt B-68,Belts,Pcs,Regular,444,56,1.8666666666666667,237.85714285714286,Stok di atas 100 hari,30192000
+Oil Seal TC 40x62x10,Seals,Pcs,Regular,385,46,1.5333333333333334,251.08695652173913,Stok di atas 100 hari,14630000
+Fuel Filter FF-350,Filters,Pcs,Regular,467,50,1.6666666666666667,280.2,Stok di atas 100 hari,33624000
+Relay MY4 24VDC,Electrical,Pcs,Regular,538,56,1.8666666666666667,288.2142857142857,Stok di atas 100 hari,45730000
+Ball Bearing 6208,Bearings,Pcs,Regular,539,56,1.8666666666666667,288.75,Stok di atas 100 hari,51205000
+O-Ring Viton 50x3,Seals,Pcs,Regular,305,30,1.0,305.0,Stok di atas 100 hari,6710000
+Fan Belt 3PK735,Belts,Pcs,Regular,307,28,0.9333333333333333,328.92857142857144,Stok di atas 100 hari,15964000
+Sandpaper P120 Sheet,Consumables,Sheet,Regular,593,54,1.8,329.44444444444446,Stok di atas 100 hari,2668500
+Grease Lithium EP2,Lubricants,Kg,Regular,551,44,1.4666666666666666,375.6818181818182,Stok di atas 100 hari,24795000
+Compressor Oil ISO 100,Lubricants,Liter,Regular,364,17,0.5666666666666667,642.3529411764706,Stok di atas 100 hari,22568000
+Mechanical Seal 28mm,Seals,Pcs,Regular,395,14,0.4666666666666667,846.4285714285714,Stok di atas 100 hari,128375000
+Water Separator WS-80,Filters,Pcs,Regular,366,12,0.4,915.0,Stok di atas 100 hari,71370000
+Circuit Breaker 3P 32A,Electrical,Pcs,Regular,369,8,0.26666666666666666,1383.75,Stok di atas 100 hari,90405000
+Thrust Bearing 51107,Bearings,Pcs,Regular,386,7,0.23333333333333334,1654.2857142857142,Stok di atas 100 hari,23932000
+Needle Bearing HK2520,Bearings,Pcs,Regular,315,5,0.16666666666666666,1890.0,Stok di atas 100 hari,15120000
+Conveyor Belt EP200,Belts,Meter,Regular,394,6,0.2,1970.0,Stok di atas 100 hari,191090000
+Gasket Sheet 3mm,Seals,Sheet,Regular,295,4,0.13333333333333333,2212.5,Stok di atas 100 hari,33925000
+Timing Belt 560-8M,Belts,Pcs,Regular,242,3,0.1,2420.0,Stok di atas 100 hari,47190000
+Roller Bearing 22210,Bearings,Pcs,Regular,398,4,0.13333333333333333,2985.0,Stok di atas 100 hari,113430000
+Proximity Sensor NPN 5mm,Electrical,Pcs,Regular,256,2,0.06666666666666667,3840.0,Stok di atas 100 hari,34560000
+Air Filter Element FA-200,Filters,Pcs,Critical,200,0,0.0,,Tanpa pemakaian 30 hari,25000000
