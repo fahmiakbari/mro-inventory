@@ -1,0 +1,7 @@
+EVALUATE UNION(
+ROW("Scope","Total","SKU",[SKU Count],"Value",[Inventory Value],"Review",[Review SKU],"Qty",[Current Stock],"Referensi simulasi",[Referensi simulasi]),
+CALCULATETABLE(ROW("Scope","Critical","SKU",[SKU Count],"Value",[Inventory Value],"Review",[Review SKU],"Qty",[Current Stock],"Referensi simulasi",[Referensi simulasi]),'Item'[Priority]="Critical"),
+CALCULATETABLE(ROW("Scope","Belts","SKU",[SKU Count],"Value",[Inventory Value],"Review",[Review SKU],"Qty",[Current Stock],"Referensi simulasi",[Referensi simulasi]),'Item'[Category]="Belts"),
+CALCULATETABLE(ROW("Scope","V-Belt A-42","SKU",[SKU Count],"Value",[Inventory Value],"Review",[Review SKU],"Qty",[Current Stock],"Referensi simulasi",[Referensi simulasi]),'Item'[ItemName]="V-Belt A-42"),
+CALCULATETABLE(ROW("Scope","2024-01-02","SKU",[SKU Count],"Value",[Inventory Value],"Review",[Review SKU],"Qty",[Current Stock],"Referensi simulasi",[Referensi simulasi]),ReportingDate[Date]=DATE(2024,1,2)))
+

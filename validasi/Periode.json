@@ -1,0 +1,135 @@
+﻿[
+    {
+        "ReportingDate[Bulan]":  "Juli 2025",
+        "ReportingDate[UrutanBulan]":  202507,
+        "[Posisi]":  "2025-07-01",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   2 Jun 2025 – 1 Jul 2025"
+    },
+    {
+        "ReportingDate[Bulan]":  "Juni 2025",
+        "ReportingDate[UrutanBulan]":  202506,
+        "[Posisi]":  "2025-06-30",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   1 Jun 2025 – 30 Jun 2025"
+    },
+    {
+        "ReportingDate[Bulan]":  "Mei 2025",
+        "ReportingDate[UrutanBulan]":  202505,
+        "[Posisi]":  "2025-05-31",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   2 Mei 2025 – 31 Mei 2025"
+    },
+    {
+        "ReportingDate[Bulan]":  "April 2025",
+        "ReportingDate[UrutanBulan]":  202504,
+        "[Posisi]":  "2025-04-30",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   1 Apr 2025 – 30 Apr 2025"
+    },
+    {
+        "ReportingDate[Bulan]":  "Maret 2025",
+        "ReportingDate[UrutanBulan]":  202503,
+        "[Posisi]":  "2025-03-31",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   2 Mar 2025 – 31 Mar 2025"
+    },
+    {
+        "ReportingDate[Bulan]":  "Februari 2025",
+        "ReportingDate[UrutanBulan]":  202502,
+        "[Posisi]":  "2025-02-28",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   30 Jan 2025 – 28 Feb 2025"
+    },
+    {
+        "ReportingDate[Bulan]":  "Januari 2025",
+        "ReportingDate[UrutanBulan]":  202501,
+        "[Posisi]":  "2025-01-31",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   2 Jan 2025 – 31 Jan 2025"
+    },
+    {
+        "ReportingDate[Bulan]":  "Desember 2024",
+        "ReportingDate[UrutanBulan]":  202412,
+        "[Posisi]":  "2024-12-31",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   2 Des 2024 – 31 Des 2024"
+    },
+    {
+        "ReportingDate[Bulan]":  "November 2024",
+        "ReportingDate[UrutanBulan]":  202411,
+        "[Posisi]":  "2024-11-30",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   1 Nov 2024 – 30 Nov 2024"
+    },
+    {
+        "ReportingDate[Bulan]":  "Oktober 2024",
+        "ReportingDate[UrutanBulan]":  202410,
+        "[Posisi]":  "2024-10-31",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   2 Okt 2024 – 31 Okt 2024"
+    },
+    {
+        "ReportingDate[Bulan]":  "September 2024",
+        "ReportingDate[UrutanBulan]":  202409,
+        "[Posisi]":  "2024-09-30",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   1 Sep 2024 – 30 Sep 2024"
+    },
+    {
+        "ReportingDate[Bulan]":  "Agustus 2024",
+        "ReportingDate[UrutanBulan]":  202408,
+        "[Posisi]":  "2024-08-31",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   2 Agu 2024 – 31 Agu 2024"
+    },
+    {
+        "ReportingDate[Bulan]":  "Juli 2024",
+        "ReportingDate[UrutanBulan]":  202407,
+        "[Posisi]":  "2024-07-31",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   2 Jul 2024 – 31 Jul 2024"
+    },
+    {
+        "ReportingDate[Bulan]":  "Juni 2024",
+        "ReportingDate[UrutanBulan]":  202406,
+        "[Posisi]":  "2024-06-30",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   1 Jun 2024 – 30 Jun 2024"
+    },
+    {
+        "ReportingDate[Bulan]":  "Mei 2024",
+        "ReportingDate[UrutanBulan]":  202405,
+        "[Posisi]":  "2024-05-31",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   2 Mei 2024 – 31 Mei 2024"
+    },
+    {
+        "ReportingDate[Bulan]":  "April 2024",
+        "ReportingDate[UrutanBulan]":  202404,
+        "[Posisi]":  "2024-04-30",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   1 Apr 2024 – 30 Apr 2024"
+    },
+    {
+        "ReportingDate[Bulan]":  "Maret 2024",
+        "ReportingDate[UrutanBulan]":  202403,
+        "[Posisi]":  "2024-03-31",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   2 Mar 2024 – 31 Mar 2024"
+    },
+    {
+        "ReportingDate[Bulan]":  "Februari 2024",
+        "ReportingDate[UrutanBulan]":  202402,
+        "[Posisi]":  "2024-02-29",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   31 Jan 2024 – 29 Feb 2024"
+    },
+    {
+        "ReportingDate[Bulan]":  "Januari 2024",
+        "ReportingDate[UrutanBulan]":  202401,
+        "[Posisi]":  "2024-01-31",
+        "[Material]":  34,
+        "[Periode]":  "Riwayat transaksi   2 Jan 2024 – 1 Jul 2025       |       Pemakaian 30 hari   2 Jan 2024 – 31 Jan 2024"
+    }
+]

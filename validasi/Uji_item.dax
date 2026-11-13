@@ -1,0 +1,1 @@
+EVALUATE SUMMARIZECOLUMNS('Item'[ItemName],"Stock",[Current Stock],"Issued",[Issued 30D],"Coverage",[Coverage Days],"Status",[Stock Status],"Value",[Inventory Value])

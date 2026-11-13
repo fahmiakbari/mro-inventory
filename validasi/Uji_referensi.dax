@@ -1,0 +1,9 @@
+EVALUATE
+ROW(
+    "Transaksi", COUNTROWS(Transactions),
+    "Referensi kosong", COALESCE(COUNTROWS(FILTER(Transactions, LEN(TRIM(Transactions[WorkOrder])) = 0)), 0),
+    "Penerimaan dengan PO", COUNTROWS(FILTER(Transactions, Transactions[Received] > 0 && LEFT(Transactions[WorkOrder], 3) = "PO-")),
+    "Pengeluaran dengan WO", COUNTROWS(FILTER(Transactions, Transactions[Issued] > 0 && LEFT(Transactions[WorkOrder], 3) = "WO-")),
+    "Pengeluaran dengan WO simulasi", COUNTROWS(FILTER(Transactions, Transactions[Issued] > 0 && LEFT(Transactions[WorkOrder], 7) = "WO-SIM-")),
+    "Nomor simulasi unik", CALCULATE(DISTINCTCOUNT(Transactions[WorkOrder]), FILTER(Transactions, LEFT(Transactions[WorkOrder], 7) = "WO-SIM-"))
+)

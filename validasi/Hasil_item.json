@@ -1,0 +1,274 @@
+﻿[
+    {
+        "Item[ItemName]":  "Air Filter Element FA-200",
+        "[Stock]":  200,
+        "[Issued]":  0,
+        "[Coverage]":  null,
+        "[Status]":  "Tanpa pemakaian 30 hari",
+        "[Value]":  25000000
+    },
+    {
+        "Item[ItemName]":  "Ball Bearing 6205",
+        "[Stock]":  158,
+        "[Issued]":  23,
+        "[Coverage]":  206.08695652173913,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  8690000
+    },
+    {
+        "Item[ItemName]":  "Ball Bearing 6208",
+        "[Stock]":  539,
+        "[Issued]":  56,
+        "[Coverage]":  288.75,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  51205000
+    },
+    {
+        "Item[ItemName]":  "Circuit Breaker 3P 32A",
+        "[Stock]":  369,
+        "[Issued]":  8,
+        "[Coverage]":  1383.75,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  90405000
+    },
+    {
+        "Item[ItemName]":  "Compressor Oil ISO 100",
+        "[Stock]":  364,
+        "[Issued]":  17,
+        "[Coverage]":  642.35294117647061,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  22568000
+    },
+    {
+        "Item[ItemName]":  "Contactor LC1-D25",
+        "[Stock]":  398,
+        "[Issued]":  75,
+        "[Coverage]":  159.2,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  93530000
+    },
+    {
+        "Item[ItemName]":  "Conveyor Belt EP200",
+        "[Stock]":  394,
+        "[Issued]":  6,
+        "[Coverage]":  1970,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  191090000
+    },
+    {
+        "Item[ItemName]":  "Cutting Wheel 4 inch",
+        "[Stock]":  300,
+        "[Issued]":  92,
+        "[Coverage]":  97.826086956521735,
+        "[Status]":  "Cukup",
+        "[Value]":  3750000
+    },
+    {
+        "Item[ItemName]":  "Engine Oil SAE 40",
+        "[Stock]":  500,
+        "[Issued]":  135,
+        "[Coverage]":  111.11111111111111,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  21000000
+    },
+    {
+        "Item[ItemName]":  "Fan Belt 3PK735",
+        "[Stock]":  307,
+        "[Issued]":  28,
+        "[Coverage]":  328.92857142857144,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  15964000
+    },
+    {
+        "Item[ItemName]":  "Fuel Filter FF-350",
+        "[Stock]":  467,
+        "[Issued]":  50,
+        "[Coverage]":  280.2,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  33624000
+    },
+    {
+        "Item[ItemName]":  "Fuse NH00 100A",
+        "[Stock]":  300,
+        "[Issued]":  71,
+        "[Coverage]":  126.7605633802817,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  23400000
+    },
+    {
+        "Item[ItemName]":  "Gasket Sheet 3mm",
+        "[Stock]":  295,
+        "[Issued]":  4,
+        "[Coverage]":  2212.5,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  33925000
+    },
+    {
+        "Item[ItemName]":  "Gear Oil SAE 90",
+        "[Stock]":  322,
+        "[Issued]":  49,
+        "[Coverage]":  197.14285714285714,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  12236000
+    },
+    {
+        "Item[ItemName]":  "Grease Lithium EP2",
+        "[Stock]":  551,
+        "[Issued]":  44,
+        "[Coverage]":  375.68181818181819,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  24795000
+    },
+    {
+        "Item[ItemName]":  "Grinding Wheel 4 inch",
+        "[Stock]":  308,
+        "[Issued]":  131,
+        "[Coverage]":  70.534351145038173,
+        "[Status]":  "Cukup",
+        "[Value]":  5544000
+    },
+    {
+        "Item[ItemName]":  "Hydraulic Filter HF-10",
+        "[Stock]":  171,
+        "[Issued]":  55,
+        "[Coverage]":  93.27272727272728,
+        "[Status]":  "Cukup",
+        "[Value]":  28215000
+    },
+    {
+        "Item[ItemName]":  "Hydraulic Oil ISO 46",
+        "[Stock]":  300,
+        "[Issued]":  336,
+        "[Coverage]":  26.785714285714288,
+        "[Status]":  "Tinjau pengadaan",
+        "[Value]":  14400000
+    },
+    {
+        "Item[ItemName]":  "Mechanical Seal 28mm",
+        "[Stock]":  395,
+        "[Issued]":  14,
+        "[Coverage]":  846.42857142857144,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  128375000
+    },
+    {
+        "Item[ItemName]":  "Needle Bearing HK2520",
+        "[Stock]":  315,
+        "[Issued]":  5,
+        "[Coverage]":  1890,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  15120000
+    },
+    {
+        "Item[ItemName]":  "O-Ring Viton 50x3",
+        "[Stock]":  305,
+        "[Issued]":  30,
+        "[Coverage]":  305,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  6710000
+    },
+    {
+        "Item[ItemName]":  "Oil Filter Cartridge 1A",
+        "[Stock]":  129,
+        "[Issued]":  287,
+        "[Coverage]":  13.484320557491289,
+        "[Status]":  "Tinjau pengadaan",
+        "[Value]":  5805000
+    },
+    {
+        "Item[ItemName]":  "Oil Seal TC 40x62x10",
+        "[Stock]":  385,
+        "[Issued]":  46,
+        "[Coverage]":  251.08695652173913,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  14630000
+    },
+    {
+        "Item[ItemName]":  "Proximity Sensor NPN 5mm",
+        "[Stock]":  256,
+        "[Issued]":  2,
+        "[Coverage]":  3840,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  34560000
+    },
+    {
+        "Item[ItemName]":  "Relay MY4 24VDC",
+        "[Stock]":  538,
+        "[Issued]":  56,
+        "[Coverage]":  288.21428571428572,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  45730000
+    },
+    {
+        "Item[ItemName]":  "Roller Bearing 22210",
+        "[Stock]":  398,
+        "[Issued]":  4,
+        "[Coverage]":  2985,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  113430000
+    },
+    {
+        "Item[ItemName]":  "Sandpaper P120 Sheet",
+        "[Stock]":  593,
+        "[Issued]":  54,
+        "[Coverage]":  329.44444444444446,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  2668500
+    },
+    {
+        "Item[ItemName]":  "Teflon Tape 3/4 inch",
+        "[Stock]":  500,
+        "[Issued]":  372,
+        "[Coverage]":  40.322580645161288,
+        "[Status]":  "Pantau",
+        "[Value]":  4250000
+    },
+    {
+        "Item[ItemName]":  "Thrust Bearing 51107",
+        "[Stock]":  386,
+        "[Issued]":  7,
+        "[Coverage]":  1654.2857142857142,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  23932000
+    },
+    {
+        "Item[ItemName]":  "Timing Belt 560-8M",
+        "[Stock]":  242,
+        "[Issued]":  3,
+        "[Coverage]":  2420,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  47190000
+    },
+    {
+        "Item[ItemName]":  "V-Belt A-42",
+        "[Stock]":  24,
+        "[Issued]":  63,
+        "[Coverage]":  11.428571428571429,
+        "[Status]":  "Tinjau pengadaan",
+        "[Value]":  1152000
+    },
+    {
+        "Item[ItemName]":  "V-Belt B-68",
+        "[Stock]":  444,
+        "[Issued]":  56,
+        "[Coverage]":  237.85714285714286,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  30192000
+    },
+    {
+        "Item[ItemName]":  "Water Separator WS-80",
+        "[Stock]":  366,
+        "[Issued]":  12,
+        "[Coverage]":  915,
+        "[Status]":  "Stok di atas 100 hari",
+        "[Value]":  71370000
+    },
+    {
+        "Item[ItemName]":  "Welding Rod 6013 3.2mm",
+        "[Stock]":  295,
+        "[Issued]":  193,
+        "[Coverage]":  45.854922279792746,
+        "[Status]":  "Cukup",
+        "[Value]":  9440000
+    }
+]

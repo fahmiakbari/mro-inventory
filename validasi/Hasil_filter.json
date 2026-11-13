@@ -1,0 +1,42 @@
+﻿[
+    {
+        "[Scope]":  "Total",
+        "[SKU]":  34,
+        "[Value]":  1253895500,
+        "[Review]":  3,
+        "[Qty]":  null,
+        "[Referensi simulasi]":  165
+    },
+    {
+        "[Scope]":  "Critical",
+        "[SKU]":  8,
+        "[Value]":  98757000,
+        "[Review]":  3,
+        "[Qty]":  null,
+        "[Referensi simulasi]":  63
+    },
+    {
+        "[Scope]":  "Belts",
+        "[SKU]":  5,
+        "[Value]":  285588000,
+        "[Review]":  1,
+        "[Qty]":  null,
+        "[Referensi simulasi]":  19
+    },
+    {
+        "[Scope]":  "V-Belt A-42",
+        "[SKU]":  1,
+        "[Value]":  1152000,
+        "[Review]":  1,
+        "[Qty]":  24,
+        "[Referensi simulasi]":  7
+    },
+    {
+        "[Scope]":  "2024-01-02",
+        "[SKU]":  6,
+        "[Value]":  38117000,
+        "[Review]":  0,
+        "[Qty]":  null,
+        "[Referensi simulasi]":  165
+    }
+]

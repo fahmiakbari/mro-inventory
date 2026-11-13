@@ -1,0 +1,1 @@
+EVALUATE SUMMARIZECOLUMNS(ReportingDate[Bulan], ReportingDate[UrutanBulan], "Posisi", FORMAT([As Of],"yyyy-MM-dd"), "Material",[SKU Count], "Periode",[Period Label]) ORDER BY ReportingDate[UrutanBulan] DESC

@@ -1,0 +1,100 @@
+As Of =
+MAX(ReportingDate[Date])
+
+Stock Item =
+VAR d = [As Of]
+VAR r = CALCULATETABLE(TOPN(1,Transactions,Transactions[Date],DESC,Transactions[Index],DESC), REMOVEFILTERS('Calendar'), REMOVEFILTERS(Transactions[Date]), Transactions[Date] <= d)
+RETURN IF(HASONEVALUE('Item'[ItemName]),MAXX(r,Transactions[Remaining]))
+
+Price Item =
+VAR d = [As Of]
+VAR r = CALCULATETABLE(TOPN(1,Transactions,Transactions[Date],DESC,Transactions[Index],DESC), REMOVEFILTERS('Calendar'), REMOVEFILTERS(Transactions[Date]), Transactions[Date] <= d)
+RETURN IF(HASONEVALUE('Item'[ItemName]),MAXX(r,Transactions[UnitPrice]))
+
+Last Transaction =
+VAR d = [As Of]
+VAR r = CALCULATETABLE(TOPN(1,Transactions,Transactions[Date],DESC,Transactions[Index],DESC), REMOVEFILTERS('Calendar'), REMOVEFILTERS(Transactions[Date]), Transactions[Date] <= d)
+RETURN IF(HASONEVALUE('Item'[ItemName]),MAXX(r,Transactions[Date]))
+
+Current Stock =
+IF(HASONEVALUE('Item'[Unit]), SUMX(VALUES('Item'[ItemName]),[Stock Item]))
+
+Inventory Value =
+SUMX(VALUES('Item'[ItemName]),[Stock Item]*[Price Item])
+
+Inventory Value Juta =
+DIVIDE([Inventory Value],1000000)
+
+SKU Count =
+COUNTROWS(FILTER(VALUES('Item'[ItemName]),NOT ISBLANK([Stock Item])))
+
+History Days =
+VAR d=[As Of]
+VAR firstTxnDate=CALCULATE(MIN(Transactions[Date]),REMOVEFILTERS('Calendar'),REMOVEFILTERS(Transactions[Date]))
+RETURN IF(NOT ISBLANK(firstTxnDate)&&d>=firstTxnDate,DATEDIFF(firstTxnDate,d,DAY)+1)
+
+Issued 30 Item =
+VAR d=[As Of]
+RETURN IF(HASONEVALUE('Item'[ItemName]) && [History Days]>=30,COALESCE(CALCULATE(SUM(Transactions[Pemakaian]),REMOVEFILTERS('Calendar'),REMOVEFILTERS(Transactions[Date]),Transactions[Date]>=d-29,Transactions[Date]<=d),0))
+
+Issued 30D =
+IF(HASONEVALUE('Item'[Unit]),SUMX(VALUES('Item'[ItemName]),[Issued 30 Item]))
+
+Daily Use 30D =
+IF(HASONEVALUE('Item'[ItemName]),DIVIDE([Issued 30 Item],30))
+
+Coverage Days =
+IF(HASONEVALUE('Item'[ItemName]),DIVIDE([Stock Item],[Daily Use 30D]))
+
+Stock Status =
+VAR cov=[Coverage Days]
+VAR crit=SELECTEDVALUE('Item'[Priority])="Critical"
+RETURN IF(HASONEVALUE('Item'[ItemName]) && NOT ISBLANK([Stock Item]),SWITCH(TRUE(),[History Days]<30,"Riwayat di bawah 30 hari",[Issued 30 Item]=0,"Tanpa pemakaian 30 hari",cov<IF(crit,35,25),"Tinjau pengadaan",cov<IF(crit,50,40),"Pantau",cov<101,"Cukup","Stok di atas 100 hari"))
+
+Review SKU =
+COALESCE(COUNTROWS(FILTER(VALUES('Item'[ItemName]),[Stock Status]="Tinjau pengadaan")),0)
+
+Monitor SKU =
+COALESCE(COUNTROWS(FILTER(VALUES('Item'[ItemName]),[Stock Status]="Pantau")),0)
+
+No Issue SKU =
+COALESCE(COUNTROWS(FILTER(VALUES('Item'[ItemName]),[Stock Status]="Tanpa pemakaian 30 hari")),0)
+
+Status SKU =
+VAR s=SELECTEDVALUE('Status'[Label]) RETURN COUNTROWS(FILTER(VALUES('Item'[ItemName]),[Stock Status]=s))
+
+Review Reason =
+SWITCH([Stock Status],"Tinjau pengadaan","Cek lead time dan PO terbuka","Pantau","Konfirmasi jadwal maintenance","Tanpa pemakaian 30 hari","Cek kebutuhan standby","Stok di atas 100 hari","Tinjau criticality sebelum kurangi stok",BLANK())
+
+Review Rank =
+IF([Stock Status]="Tinjau pengadaan",RANKX(FILTER(ALLSELECTED('Item'[ItemName]),[Stock Status]="Tinjau pengadaan"),[Coverage Days],,ASC,Dense))
+
+Review Order =
+IF(HASONEVALUE('Item'[ItemName]) && NOT ISBLANK([Stock Status]),IF(ISBLANK([Coverage Days]),999999,ROUND([Coverage Days],4)))
+
+Issued Qty =
+IF(HASONEVALUE('Item'[Unit]),SUM(Transactions[Pemakaian]))
+
+Issued Value =
+SUMX(Transactions,Transactions[Pemakaian]*Transactions[UnitPrice])
+
+Issue Rows =
+COUNTROWS(FILTER(Transactions,Transactions[JenisCatatan]="Pengeluaran"))
+
+Referensi simulasi =
+COALESCE(COUNTROWS(FILTER(Transactions,LEFT(Transactions[WorkOrder],7)="WO-SIM-")),0)
+
+Receipt Rows =
+COUNTROWS(FILTER(Transactions,Transactions[JenisCatatan]="Penerimaan"))
+
+Transaction Rows =
+COUNTROWS(Transactions)
+
+Period Label =
+VAR akhir = [As Of]
+VAR pertama = CALCULATE(MIN(Transactions[Date]), REMOVEFILTERS())
+VAR terakhir = CALCULATE(MAX(Transactions[Date]), REMOVEFILTERS())
+VAR mulai = MAX(pertama, akhir - 29)
+RETURN "Riwayat transaksi   " & FORMAT(pertama, "d MMM yyyy", "id-ID") & " – " & FORMAT(terakhir, "d MMM yyyy", "id-ID")
+    & "       |       " & IF(akhir - pertama < 29, "Riwayat tersedia untuk pemakaian   ", "Pemakaian 30 hari   ")
+    & FORMAT(mulai, "d MMM yyyy", "id-ID") & " – " & FORMAT(akhir, "d MMM yyyy", "id-ID")
