@@ -100,6 +100,3 @@ Data yang digunakan adalah kartu stok simulasi. Perkiraan hari stok mengikuti la
 
 Data pesanan terbuka, reservasi material, dan jadwal pemeliharaan dapat melengkapi analisis ini. Dengan informasi itu, daftar tinjauan bisa dilanjutkan ke perencanaan tanggal dan jumlah pembelian.
 
-## Tentang pengerjaan
-
-Fahmi Akbari menyediakan workbook dan proyek Power BI awal serta meninjau interpretasi data dan kebutuhan dashboard. Pengembangan lanjutan memakai bantuan AI untuk pengolahan referensi simulasi, penyempurnaan model dan tampilan, pemeriksaan hasil, serta dokumentasi.
